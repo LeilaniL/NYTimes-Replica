@@ -1,3 +1,4 @@
+
 .navbar {
   width: 100%;
   height: 30px;
@@ -29,4 +30,25 @@
   border-radius: 3px;
   border-color:  rgb(55, 111, 241);
   border-width: 1px;
+}
+/* -----------should be styles for featured-articles component----------  */
+
+.topic-box {
+  margin: 30px;
+  /* border-top: 2px solid black; */
+  width: 66em;
+  float: left;
+}
+.topic-tag {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.headline {
+  font-family: 'Times New Roman', Times, serif;
+}
+.main-points {
+font-family: 'Times New Roman', Times, serif;
+}
+#borderdammit  {
+  border: 3 px dashed black !important;
 }
