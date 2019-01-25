@@ -1,7 +1,7 @@
 
 .navbar {
   width: 100%;
-  height: 30px;
+  height: 50px;
 }
 .icon {
   width: 20px;
@@ -11,13 +11,13 @@
   margin-right: 10px;
 }
 .logo {
-  width: 25em;
-  height: auto;
-  margin-top: 40px;
+  /* width: 25em; */
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
 }
-.section-label, .navbtn {
+.section-label, .navbtn, .topic-tag {
+  font-family: Helvetica, Arial, sans-serif;
   margin-left: auto;
   margin-right: auto;
   font-weight: bold;
@@ -35,20 +35,29 @@
 
 .topic-box {
   margin: 30px;
-  /* border-top: 2px solid black; */
-  width: 66em;
+  border-top: 2px solid black;
+  width: 66%;
   float: left;
 }
 .topic-tag {
-  text-transform: uppercase;
   font-size: 10px;
 }
-.headline {
-  font-family: 'Times New Roman', Times, serif;
+figure > img {
+  float: right;
+  max-width: 50%;
 }
-.main-points {
-font-family: 'Times New Roman', Times, serif;
+.caption {
+  font-size: 10px;
+  color: gray;
 }
-#borderdammit  {
-  border: 3 px dashed black !important;
+.related-links{
+  font-weight: bold;
+  font-size: 10px;
+  float: left;
+  border: 1px solid gray;
+}
+/* ----------should be styles for opinion sidebar component---------- */
+.opinion-featured {
+  display: inline;
+  width: 33%;
 }
