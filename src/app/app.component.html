@@ -64,3 +64,12 @@
     </tr>
   </table>
 </div>
+
+<div *ngFor="let story of featuredStories" class=" topic-box">
+  <h2 class="topic-tag">{{ story.topic }}</h2>
+  <h1>{{ story.headline }}</h1>
+  <ul class="main-points">
+    <li>{{ story.mainpoint1 }}</li>
+    <li>{{ story.mainpoint2 }}</li>
+  </ul>
+</div>
