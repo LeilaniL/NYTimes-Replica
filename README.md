@@ -25,3 +25,24 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Specs
+- Header displays logo, current date, weather, and options to subscribe or log in
+
+- Menu 
+
+- Skybox(?) links to newsletters and podcasts
+
+- Featured story has large video or photo
+
+- Featured story has headline plus subhead/topic tag above (all caps)
+
+- Featured story has two bullet points
+
+- Related stories appear below or next to it
+
+- Light gray text indicates when articles were published
+
+- Thick horizontal lines separate topics
+
+- Thin gray lines separate related stories within the topic
