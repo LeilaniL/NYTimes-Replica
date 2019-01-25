@@ -61,3 +61,7 @@ figure > img {
   display: inline;
   width: 33%;
 }
+td {
+  /* max-width: 100%; */
+  border: 1 px solid blue;
+}
