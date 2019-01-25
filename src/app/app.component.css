@@ -52,9 +52,9 @@ figure > img {
 }
 .related-links{
   font-weight: bold;
-  font-size: 10px;
+  font-size: 16px;
   float: left;
-  border: 1px solid gray;
+  border: 1px solid rgb(204, 202, 202);
 }
 /* ----------should be styles for opinion sidebar component---------- */
 .opinion-featured {
