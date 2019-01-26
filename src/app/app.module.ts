@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { FeaturedArticlesComponent } from './featured-articles/featured-articles.component';
+import { ReadArticleComponent } from './read-article/read-article.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FeaturedArticlesComponent
+    FeaturedArticlesComponent,
+    ReadArticleComponent
   ],
   imports: [
     BrowserModule

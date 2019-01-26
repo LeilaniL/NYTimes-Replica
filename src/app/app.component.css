@@ -33,35 +33,13 @@
 }
 /* -----------should be styles for featured-articles component----------  */
 
-.topic-box {
-  margin: 30px;
-  border-top: 2px solid black;
-  width: 66%;
-  float: left;
-}
-.topic-tag {
-  font-size: 10px;
-}
-figure > img {
-  float: right;
-  max-width: 50%;
-}
-.caption {
-  font-size: 10px;
-  color: gray;
-}
-.related-links{
-  font-weight: bold;
-  font-size: 16px;
-  float: left;
-  border: 1px solid rgb(204, 202, 202);
-}
+
 /* ----------should be styles for opinion sidebar component---------- */
 .opinion-featured {
   display: inline;
   width: 33%;
 }
-td {
-  /* max-width: 100%; */
+/* td {
+  max-width: 100%;
   border: 1 px solid blue;
-}
+} */
