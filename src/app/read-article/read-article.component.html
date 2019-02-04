@@ -1,9 +1,10 @@
 <!-- should be nav-bar component above -->
 <!-- <banner-ad></banner-ad> -->
 
-<h1 class="articleHeadline">Border Wall Is Out of Sync With the Southwest’s Changing Politics</h1>
+<h1 class="articleHeadline">{{(articleToDisplay | async)?.headline}}</h1>
+<!-- <h1 class="articleHeadline">Border Wall Is Out of Sync With the Southwest’s Changing Politics</h1> -->
 <figure>
-  <img src="../../assets/img/largeArticle.jpg" alt="border" class="article-image">
+  <img src="../../assets/img/{{(articleToDisplay | async)?.picture}}" alt="main-image" class="article-image">
   <figcaption>A portion of the border fence near the port of entry in Columbus, N.M. Each of the nine House members
     whose districts touch the border opposes a wall.</figcaption>
 </figure>
