@@ -20,7 +20,7 @@
   <div class="related-links">
     A look at everyone who has been charged in investigations related to the 2016 election.
   </div>
-  <div *ngFor="let story of featuredStories" class=" topic-box">
+  <div *ngFor="let story of featuredStories | async" class=" topic-box">
     <h2 class="topic-tag">{{ story.topic }}</h2>
     <h1>{{ story.headline }}</h1>
     <ul class="main-points">

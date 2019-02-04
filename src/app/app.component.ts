@@ -16,9 +16,4 @@ export class AppComponent {
     this.articles = db.list('/articles');
   };
 
-  topStory = new FeaturedArticle("Trump backs down over shutdown", "government shutdown", "lorem ipsum ipsum", "lorem lorem ipsum ipsum");
-  otherStory = new FeaturedArticle("Bad stuff happening in Venezuela", "Venezuela", "lorem ipsum ipsum", "lorem lorem ipsum ipsum");
-
-  featuredStories: any[] = [
-  ]
 } 
