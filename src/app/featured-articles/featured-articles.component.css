@@ -15,10 +15,10 @@ figure > img {
   float: right;
   max-width: 50%;
 }
-.caption {
+/* .caption {
   font-size: 10px;
   color: gray;
-}
+} */
 .related-links{
   font-weight: bold;
   font-size: 16px;
