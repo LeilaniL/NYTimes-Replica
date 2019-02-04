@@ -18,7 +18,7 @@
       "es2018",
       "dom"
     ],
-    "type": [
+    "types": [
       "firebase"
     ]
   }
