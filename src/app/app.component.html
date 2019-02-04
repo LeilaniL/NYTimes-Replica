@@ -1,3 +1,4 @@
+<!-- <navbar></navbar> -->
 <div class="navbar">
   <img class="icon" src="../assets/img/menu.png" alt="menu">
   <img class="icon" src="../assets/img/search.png" alt="menu">
@@ -6,16 +7,11 @@
   <button class="navbtn">Subscribe Now</button>
   <button class="navbtn">Log In</button>
 </div>
-<!-- ********** should be a featured-articles component here *********** -->
-
-
-
 
 <!-- <banner-ad></banner-ad> -->
-<!-- <navbar></navbar> -->
 <!--<header-skybox></header-skybox>-->
 <featured-articles></featured-articles>
-<!-- ********** should be an opinion-sidebar component here *********** -->
+<!-- <featured-opinion></featured-opinion> -->
 <div class="opinion-featured">
   <h3>I will have a bunch of opinions!</h3>
   <table>
@@ -49,5 +45,10 @@
     </tr>
   </table>
 </div>
-<app-read-article></app-read-article>
+<!-- *******placeholder for article detail component******* -->
+<b>
+  <a routerLink="read-article">Go to Article Detail</a>
+</b>
+<router-outlet></router-outlet>
+
 <!-- <sections-footer></sections-footer> -->
