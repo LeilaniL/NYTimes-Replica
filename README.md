@@ -27,22 +27,25 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## Specs
+On the homepage:
 - Header displays logo, current date, weather, and options to subscribe or log in
 
-- Menu 
+- Menu (hamburger icon) displays list of sections
 
 - Skybox(?) links to newsletters and podcasts
 
-- Featured story has large video or photo
+-Top news packages contain:
+  -3 articles of the same topic (e.g. "Government Shutdown", "Super Bowl")
+  -When article was last updated
+  -The most recent article is highlighted, including an image and two bullet points
 
-- Featured story has headline plus subhead/topic tag above (all caps)
+-Opinion pieces display the headline and author's name
 
-- Featured story has two bullet points
+- Thick horizontal lines separate topics/packages
 
-- Related stories appear below or next to it
+- Thin gray lines separate related stories within the package
 
-- Light gray text indicates when articles were published
-
-- Thick horizontal lines separate topics
-
-- Thin gray lines separate related stories within the topic
+If you click on a top news article, the detail page displays:
+-Headline, large image, date published, byline, and body text
+-A list of comments
+-Users can add (and edit or delete) their comments
