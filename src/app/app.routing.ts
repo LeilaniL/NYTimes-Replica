@@ -9,7 +9,7 @@ const appRoutes: Routes = [
     component: FeaturedArticleComponent
   },
   {
-    path: 'read-article',
+    path: 'articles/:id',
     component: ReadArticleComponent
   }
 

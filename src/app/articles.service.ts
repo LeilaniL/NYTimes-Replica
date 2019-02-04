@@ -12,4 +12,7 @@ export class ArticleService {
   getArticles() {
     return this.articles;
   }
+  getArticleById(id: string) {
+    return this.database.object('articles/' + id);
+  }
 }

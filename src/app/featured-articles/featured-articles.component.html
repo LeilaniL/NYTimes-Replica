@@ -1,35 +1,34 @@
 <div class="topic-box">
-  <h2 class="topic-tag">the russia inquiry</h2>
-  <h1 class="headline">Indicting Stone, Mueller Shows Link Between Trump Campaign and WikiLeaks</h1>
-  <ul class="main-points">
-    <figure> <img src="../assets/img/video-thumbnail.PNG" alt="main-image">
-      <figcaption class="caption">Roger J. Stone Jr. was arrested in a pre-dawn F.B.I. raid in Ft. Lauderdale, Fla.,
-        and
-        appeared
-        in
-        court Friday.</figcaption>
-    </figure>
-    <li>The longtime informal adviser to President Trump was charged with seven counts, including making false
-      statements and witness tampering, according to the special counsel’s office.</li>
-    <li>Mr. Stone has spent decades plying the dark arts of scandal-mongering and dirty tricks to help influence
-      American political campaigns.</li>
-  </ul>
-  <div class="related-links">
-    Here's what we learned from Mr. Stone's indictment.
-  </div>
-  <div class="related-links">
-    A look at everyone who has been charged in investigations related to the 2016 election.
-  </div>
-  <div *ngFor="let story of featuredStories | async" class=" topic-box">
-    <h2 class="topic-tag">{{ story.topic }}</h2>
-    <h1>{{ story.headline }}</h1>
+  <a routerLink="read-article">
+    <h2 class="topic-tag">the russia inquiry</h2>
+    <h1 class="headline">Indicting Stone, Mueller Shows Link Between Trump Campaign and WikiLeaks</h1>
     <ul class="main-points">
-      <li>{{ story.mainpoint1 }}</li>
-      <li>{{ story.mainpoint2 }}</li>
+      <figure> <img src="../assets/img/video-thumbnail.PNG" alt="main-image">
+        <figcaption class="caption">Roger J. Stone Jr. was arrested in a pre-dawn F.B.I. raid in Ft. Lauderdale, Fla.,
+          and
+          appeared
+          in
+          court Friday.</figcaption>
+      </figure>
+      <li>The longtime informal adviser to President Trump was charged with seven counts, including making false
+        statements and witness tampering, according to the special counsel’s office.</li>
+      <li>Mr. Stone has spent decades plying the dark arts of scandal-mongering and dirty tricks to help influence
+        American political campaigns.</li>
     </ul>
-  </div>
-  <!-- *******PLACEHOLDER for article detail component******* -->
-  <b>
-    <a routerLink="read-article">Go to Article Detail</a>
-  </b>
+    <div class="related-links">
+      Here's what we learned from Mr. Stone's indictment.
+    </div>
+    <div class="related-links">
+      A look at everyone who has been charged in investigations related to the 2016 election.
+    </div>
+  </a>
+</div>
+<div *ngFor="let story of featuredStories | async" class=" topic-box" (click)="goToDetailPage(story)">
+  <h2 class="
+  topic-tag">{{ story.topic }}</h2>
+  <h1>{{ story.headline }}</h1>
+  <ul class="main-points">
+    <li>{{ story.mainpoint1 }}</li>
+    <li>{{ story.mainpoint2 }}</li>
+  </ul>
 </div>

@@ -19,6 +19,10 @@ export class FeaturedArticleComponent implements OnInit {
   ngOnInit() {
     this.featuredStories = this.service.getArticles();
   }
+  goToDetailPage(story) {
+    console.log(story.$key);
+    this.router.navigate(['articles', story.$key]);
+  }
   // topStory = new FeaturedArticle("Trump backs down over shutdown", "government shutdown", "lorem ipsum ipsum", "lorem lorem ipsum ipsum");
   // otherStory = new FeaturedArticle("Bad stuff happening in Venezuela", "Venezuela", "lorem ipsum ipsum", "lorem lorem ipsum ipsum");
 
