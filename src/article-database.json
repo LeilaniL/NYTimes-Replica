@@ -1,0 +1,31 @@
+{
+  "articles": [
+    {
+      "headline": "Trump May Shift Troops to Iraq to Monitor Iran",
+      "topic": "Public Policy",
+      "mainpoint1": "President Trump said he planned to keep troops in Iraq to monitor Iran, even as he moves to withdraw forces from Syria and Afghanistan.",
+      "mainpoint2": "The president’s remarks could jeopardize weeks of delicate talks with Iraq to move troops there from Syria in order to strike at the Islamic State."
+      "bodyText": " ",
+      "picture": " ",
+      "whenPublished": " "
+    },
+    {
+      "headline": "Patriots Win Sixth Super Bowl, but It Isn’t Pretty",
+      "topic": "Super Bowl LIII",
+      "mainpoint1": "In the lowest-scoring Super Bowl ever, New England beat the Los Angeles Rams, 13-3.",
+      "mainpoint2": "The Patriots won their sixth championship in 18 seasons to tie the Steelers for the most N.F.L. titles."
+      "bodyText": " ",
+      "picture": " ",
+      "whenPublished": " "
+    },
+    {
+      "headline": "Trump Behaves One Way on Race. Democrats Demand Better from Their Own.",
+      "topic": "Race and Politics",
+      "mainpoint1": " President Trump’s divisive behavior on race, and the Republican silence that often meets it, has pushed Democrats to try to set an example.",
+      "mainpoint2": " Democrats are confronting misconduct in their own ranks at a time when their base is increasingly made up of people of color and white progressives."
+      "bodyText": " ",
+      "picture": " ",
+      "whenPublished": " "
+    }
+  ]
+}

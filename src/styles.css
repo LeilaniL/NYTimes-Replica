@@ -4,3 +4,9 @@ div {
 body {
   font-family: 'Times New Roman', Times, serif;
 }
+.section-label, .navbtn, .topic-tag {
+  font-family: Helvetica, Arial, sans-serif;
+  margin-top: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
