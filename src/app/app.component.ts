@@ -15,4 +15,4 @@ export class AppComponent {
   featuredStories: FeaturedArticle[] = [
     this.topStory, this.otherStory
   ]
-}
+} 
