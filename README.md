@@ -34,18 +34,18 @@ On the homepage:
 
 - Skybox(?) links to newsletters and podcasts
 
--Top news packages contain:
+- Top news packages contain:
   -3 articles of the same topic (e.g. "Government Shutdown", "Super Bowl")
   -When article was last updated
   -The most recent article is highlighted, including an image and two bullet points
 
--Opinion pieces display the headline and author's name
+- Opinion pieces display the headline and author's name
 
 - Thick horizontal lines separate topics/packages
 
 - Thin gray lines separate related stories within the package
 
 If you click on a top news article, the detail page displays:
--Headline, large image, date published, byline, and body text
--A list of comments
--Users can add (and edit or delete) their comments
+- Headline, large image, date published, byline, and body text
+- A list of comments
+- Users can add (and edit or delete) their comments
