@@ -1,4 +1,4 @@
-<div class="topic-box">
+<!-- <div class="topic-box">
   <a routerLink="read-article">
     <h2 class="topic-tag">the russia inquiry</h2>
     <h1 class="headline">Indicting Stone, Mueller Shows Link Between Trump Campaign and WikiLeaks</h1>
@@ -9,20 +9,20 @@
           appeared
           in
           court Friday.</figcaption> -->
-      </figure>
-      <li>The longtime informal adviser to President Trump was charged with seven counts, including making false
-        statements and witness tampering, according to the special counsel’s office.</li>
-      <li>Mr. Stone has spent decades plying the dark arts of scandal-mongering and dirty tricks to help influence
-        American political campaigns.</li>
-    </ul>
-    <div class="related-links">
-      Here's what we learned from Mr. Stone's indictment.
-    </div>
-    <div class="related-links">
-      A look at everyone who has been charged in investigations related to the 2016 election.
-    </div>
-  </a>
+<!-- </figure>
+<li>The longtime informal adviser to President Trump was charged with seven counts, including making false
+  statements and witness tampering, according to the special counsel’s office.</li>
+<li>Mr. Stone has spent decades plying the dark arts of scandal-mongering and dirty tricks to help influence
+  American political campaigns.</li>
+</ul>
+<div class="related-links">
+  Here's what we learned from Mr. Stone's indictment.
 </div>
+<div class="related-links">
+  A look at everyone who has been charged in investigations related to the 2016 election.
+</div>
+</a>
+</div> -->
 <div *ngFor="let story of featuredStories | async" class=" topic-box" (click)="goToDetailPage(story)">
   <h2 class="
   topic-tag">{{ story.topic }}</h2>
