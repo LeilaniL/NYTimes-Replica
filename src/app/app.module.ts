@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { FeaturedArticleComponent } from './featured-articles/featured-articles.component';
 import { ReadArticleComponent } from './read-article/read-article.component';
 import { ViewCommentsComponent } from './view-comments/view-comments.component';
+import { OpinionComponent } from './opinion/opinion.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -23,7 +24,8 @@ export const firebaseConfig = {
     AppComponent,
     FeaturedArticleComponent,
     ReadArticleComponent,
-    ViewCommentsComponent
+    ViewCommentsComponent,
+    OpinionComponent
   ],
   imports: [
     BrowserModule,

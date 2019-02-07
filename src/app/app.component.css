@@ -26,15 +26,3 @@
   border-color:  rgb(55, 111, 241);
   border-width: 1px;
 }
-/* -----------should be styles for featured-articles component----------  */
-
-
-/* ----------should be styles for opinion sidebar component---------- */
-.opinion-featured {
-  display: inline;
-  width: 33%;
-}
-/* td {
-  max-width: 100%;
-  border: 1 px solid blue;
-} */
