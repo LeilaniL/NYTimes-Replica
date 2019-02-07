@@ -8,6 +8,7 @@ import { masterFirebaseConfig } from '../app/api-keys';
 import { AppComponent } from './app.component';
 import { FeaturedArticleComponent } from './featured-articles/featured-articles.component';
 import { ReadArticleComponent } from './read-article/read-article.component';
+import { ViewCommentsComponent } from './view-comments/view-comments.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -21,7 +22,8 @@ export const firebaseConfig = {
   declarations: [
     AppComponent,
     FeaturedArticleComponent,
-    ReadArticleComponent
+    ReadArticleComponent,
+    ViewCommentsComponent
   ],
   imports: [
     BrowserModule,

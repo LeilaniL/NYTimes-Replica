@@ -2,10 +2,8 @@
 <!-- <banner-ad></banner-ad> -->
 
 <h1 class="articleHeadline">{{(articleToDisplay | async)?.headline}}</h1>
-<!-- <h1 class="articleHeadline">Border Wall Is Out of Sync With the Southwest’s Changing Politics</h1> -->
 <figure>
   <img src="../../assets/img/{{(articleToDisplay | async)?.picture}}" alt="main-image" class="article-image">
 </figure>
 <h4 class="reporter-byline">By Trip Gabriel</h4>
-<div class="articleText">Lorem ipsum ipsum</div>
-<div class="comments"></div>
+<div class="articleText">{{(articleToDisplay | async)?.bodyText}}</div>
