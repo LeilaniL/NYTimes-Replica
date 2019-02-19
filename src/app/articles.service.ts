@@ -15,4 +15,5 @@ export class ArticleService {
   getArticleById(id: string) {
     return this.database.object('articles/' + id);
   }
+  // To Do: getArticlesByTopic() for related articles
 }
