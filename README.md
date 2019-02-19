@@ -11,15 +11,17 @@ This was built for an independent project to learn Angular and Firebase, and is 
 ## Setup
 
 1. Clone or download repository
-2. Create an _ api-keys.ts _ file within the src/app folder
+2. Create an _api-keys.ts_ file within the src/app folder
 3. Enter the API key (contact leilanileach@yahoo.com if needed)
-4. Run _ npm install _ in the command line at the project root level
-5. Run _ ng serve -o _ to start a server and open the browser
+4. Run _npm install_ in the command line at the project root level
+5. Run _ng serve -o_ to start a server and open the browser
 
 
 
 ## Specs
-| * In Progress * | * Done * |
+
+| *In Progress* | *Done* |
+| ---- | ---- |
 
 | On the homepage:
 - Header displays logo, current date, weather, and options to subscribe or log in
