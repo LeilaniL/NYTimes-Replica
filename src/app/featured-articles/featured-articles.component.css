@@ -5,9 +5,15 @@ a, a:hover {
 .topic-box {
   margin: 30px;
   border-top: 2px solid black;
-  width: 66%;
   float: left;
- cursor: pointer;
+  cursor: pointer;
+}
+.opinion {
+  margin: 30px;
+  border-top: 2px solid black;
+  border-left: 2px solid gray;
+  float: right;
+  cursor: pointer;
 }
 .topic-tag {
   font-size: 10px;
